@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/*
+#FA605A
+#B52038
+#4D5147
+#7E8F74
+#B0BDA4
+#DDE8E3
+*/
+
+body {
+	background:#DDE8E3;
+} 
+#divPage {
+	width:1022px; 
+	background:white; 
+	box-shadow:5px 5px 5px #B0BDA4; 
+	margin:auto;
+	border-radius:10px 10px 10px 10px;
+	padding:10px;
+} 
+
+/* top ----------------------------------------------------------- */
+#divTop {
+	padding:30px 0px 0px 0px; 
+	text-align:center;
+}
+#divTop h1 {
+	font-family:"타이포_달꽃";
+	font-size:45px;
+	text-shadow:3px 3px 3px #B0BDA4;
+}
+
+/* center ----------------------------------------------------------- */
+#divCenter {
+	border:1px solid #B52038; 
+	margin:0px 10px 0px 10px; 
+	padding-bottom:20px;
+}
+
+/* menu ----------------------------------------------------------- */
+#divMenu {
+	overflow:hidden; 
+	background:#B52038; 
+	margin:0px 0px 20px 0px; 
+	padding:10px; 
+	border-bottom:1px solid #B52038;
+} 
+#divMenu .menuItem {
+	width:80px;
+	float:left;
+} 
+a {
+	float:right;
+	text-decoration:none; 
+	color:white;
+	font-size:13px;
+	margin-left:5px;
+} 
+a:hover {
+	font-weight:bold;
+} 
+.menuLogin span {
+	float:right;
+	color:white;
+	font-size:13px;
+	margin-left:4px;
+}
+
+/* content ----------------------------------------------------------- */
+#divContent {
+	width:980px;
+} 
+#divContent h3 {
+	text-align:center;
+	color:#4D5147;
+}
+#divHeader { 
+	width:980px; 
+	text-align:center;
+	color:#4D5147;
+} 
+#divHeader h2 {
+	color:#DDE8E3;
+	font-style:italic;
+}
+#divCondition {
+	width:800px;
+	overflow:hidden; 
+	margin:auto; 
+	margin-bottom:5px;
+} 
+#divBtnUpdate {
+	width:800px;
+	margin:auto;
+	margin-bottom:3px;
+}
+#divBtnUpdate button {
+	width:70px;
+}
+#divSearch {
+	float:left; 
+} 
+#divSort {
+	float:right;
+} 
+#pagination {
+	width:980px; text-align:center;
+} 
+.row .pcode, .row .pname, .row .hiredate, .row .dept, .row .ptitle {
+	text-align:center;
+} 
+.row .scode, .row .sname, .row .year, .row .birthday, .row .edate {
+	text-align:center;
+} 
+.row .lcode, .row .room, .row .hours, .row .capacity, .row .persons {
+	text-align:center;
+}
+.row .instructor, .row .advisor, .row .btnDel, .row .chkbox {
+	text-align:center;
+}
+.row .salary, .row .grade {
+	text-align:right;
+} 
+select, input, button {
+	height:23px; 
+	font-size:12px;
+} 
+input[type="radio"] {
+	height:12px;
+} 
+table {
+	border-collapse:collapse; 
+	margin:auto; 
+	margin-bottom:10px;
+	width:800px;
+} 
+table .title {
+	background:#4D5147; 
+	text-align:center; 
+	color:white;
+} 
+table .row:hover {
+	background:#DDE8E3;
+} 
+td {
+	border:1px solid black; 
+	height:30px; 
+	font-size:12px;
+	padding:0px 5px 0px 5px;
+} 
+td button {
+	text-align:center;
+} 
+input[type="radio"] {
+	height:12px;
+} 
+input[name="yy"], input[name="mm"], input[name="dd"], #yy,#mm,#dd {
+	text-align:center;
+} 
+input[name="salary"], input[name="capacity"], input[name="persons"], input[name="hours"] {
+	text-align:right;
+}
+input[type="text"] {
+	height:18px;
+}
+input[type="password"] {
+	height:18px;
+	margin-bottom:5px;
+}
+#indexH4 {
+	width:1000px;
+}
+#indexH4 h4 {
+	text-align:center;
+}
+
+/* login ----------------------------------------------------------- */
+
+#logId, #logPass {
+	margin-top:5px;
+	width:200px;
+	padding:5px;
+}
+#logTxt {
+	width:1000px;
+	text-align:center;
+}
+#logBtn {
+	margin-left:393px;
+}
+#logH2 {
+	width:1000px;
+}
+#logH2 h2{
+	text-align:center;
+	font-family:"타이포_달꽃";
+	font-size:40px;
+}
+/* bottom ----------------------------------------------------------- */
+#divBottom {
+	padding:0px 0px 10px 0px; 
+	text-align:center;
+} 
+
+
+
+
+
